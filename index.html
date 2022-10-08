@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Olimpiade Siswa Cerdas Nasional - Pijar Sekolah</title>
+  </head> 
+  <body class="">
+    <!-- NAV -->
+    <nav class="absolute top-0 left-0 z-30 flex w-full items-center bg-white shadow-md">
+      <div class="relative flex w-full items-center justify-between">
+        <div class="p-4">
+          <a href="#gambar" class="flex gap-x-2">
+            <img src="dist/img/navLogo.png" alt="" />
+            <img src="dist/img/navLogoPOSI.png" alt="" />
+          </a>
+          <button id="hamburger" type="button" name="button" class="absolute right-4 top-6 lg:hidden">
+            <svg id="kotak" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+              <path id="kotak2" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+            </svg>
+            <svg id="x" xmlns="http://www.w3.org/2000/svg" class="hidden h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <header id="nav-menu" class="absolute right-0 top-[70px] hidden w-full max-w-full rounded-b-xl bg-white py-5 shadow-md lg:static lg:block lg:rounded-none lg:bg-transparent lg:py-0 lg:shadow-none">
+          <div class="py-4 px-11 lg:flex lg:items-center lg:justify-end lg:py-0 lg:pr-10">
+            <ul class="block lg:mt-0 lg:flex lg:items-center">
+              <li>
+                <a href="#tentangOSC" class="mt-6 mb-6 flex  text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Tentang OSC</a>
+              </li>
+              <li>
+                <a href="#timeline" class="mt-6 mb-6 flex  text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Timeline</a>
+              </li>
+              <li>
+                <a href="#kegiatan" class="mt-6 mb-6 flex  text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Kegiatan</a>
+              </li>
+              <li>
+                <a href="#pemenang" class="mt-6 mb-6 flex  text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Pemenang</a>
+              </li>
+              <li>
+                <a href="https://pijarsekolah.id/" target="_blank" class="mt-6 mb-6 flex  text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">pijarsekolah.id</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+    </nav>
+    <!-- NAV END -->
+
+    <!-- GAMBAR -->
+    <img class=" pt-24  w-full object-cover lg:h-[800px]" src="dist/img/banner 1.png" />
+    <!-- <div id="gambar" class="pt-24">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="dist/img/banner 1.png" />
+          </div>
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="#" />
+          </div>
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="#" />
+          </div>
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="#" />
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-pagination"></div>
+      </div> -->
+
+      <!-- <h1 class="absolute bottom-10 left-5 z-10 text-4xl font-bold text-slate-100 md:text-5xl lg:text-6xl">
+        Lorem Ipsum
+        <div>Lorem, ipsum dolor.</div>
+      </h1> -->
+    </div> 
+    <!-- GAMBAR END -->
+    <!-- TENTANG OSC -->
+    <div id="tentangOSC" class="container px-10 pt-10 lg:pt-32  lg:flex">
+      <h1 class=" text-4xl font-bold text-black lg:hidden">Tentang OSC</h1>
+      <img class="mt-5 lg:-mt-8 lg:-order-1 " src="dist/img/logo olsc warna 1.png" alt="" />
+      <div class="lg:ml-10 lg:pl-20">
+        <h1 class="hidden  text-5xl font-bold text-black lg:block">Tentang OSC</h1>
+        <p class="mt-5 text-justify">Pijar Sekolah terus berkomitmen untuk mewujudkan #SekolahUnggul bahkan di tengah pandemi COVID-19. Salah satunya dengan menyelenggarakan olimpiade untuk para siswa berprestasi. Kali ini Pijar Sekolah bersama SMK Telkom Lampung mengadakan kegiatan “Olimpiade Siswa Cerdas” untuk tingkat SMP/MTs sederajat se-provinsi Lampung.</p>
+        <p class="mt-5 text-justify">Lomba akan diadakan secara online melalui platform PijarSekolah dan bersifat individu. Cabang perlombaan meliputi pengetahuan umum, wawasan kebangsaan, dan wawasan seputar teknologi informasi (IT).</p>
+        <button class="mt-5 rounded-full bg-orange-400 py-2 px-6 text-white">Tentang pijarsekolah.id</button>
+      </div>
+    </div>
+    <!-- TENTANG OSC END -->
+    <!-- TIMELINE -->
+    <div>
+      <h1 id="timeline" class="pt-32 text-center  text-5xl font-bold text-black">Timeline</h1>
+      <div class="mt-5 flex justify-center">
+        <div class="grid grid-cols-2 gap-2 lg:grid-cols-3 lg:gap-5">
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center  text-4xl font-bold text-white lg:text-7xl">10</h1>
+                <h2 class="text-center  text-xl font-bold text-white lg:text-3xl">Nov '21</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center  text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Jawa Barat</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center  text-4xl font-bold text-white lg:text-7xl">04</h1>
+                <h2 class="text-center  text-xl font-bold text-white lg:text-3xl">Mar '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center  text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Jateng & DIY</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center  text-4xl font-bold text-white lg:text-7xl">21</h1>
+                <h2 class="text-center  text-xl font-bold text-white lg:text-3xl">Apr '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center  text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Sumatra</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center  text-4xl font-bold text-white lg:text-7xl">19</h1>
+                <h2 class="text-center  text-xl font-bold text-white lg:text-3xl">Mei '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center  text-[10px] font-medium lg:mt-6 lg:py-2 lg:text-sm lg:font-semibold">OSC Jabodetabek & Serang</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center  text-4xl font-bold text-white lg:text-7xl">24</h1>
+                <h2 class="text-center  text-xl font-bold text-white lg:text-3xl">Agu '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center  text-[6px] font-medium lg:mt-6 lg:text-[10px] lg:font-semibold">OSC Jatim, Bali, NTT, Kalimantan, Sulawesi, Maluku, Papua & Papua Barat</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center  text-4xl font-bold text-white lg:text-7xl">5</h1>
+                <h2 class="text-center  text-xl font-bold text-white lg:text-3xl">Okt '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center  text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Nasional</div>
+            </div>
+          </div>
+          <img class="col-span-2 w-72 lg:col-span-3 lg:w-[700px]" src="dist/img/Group 5.png" alt="" />
+          <!-- <div class="relative col-span-2 rounded-lg bg-biruTua lg:col-span-3">
+            <div class="flex justify-between p-3">
+              <img class="absolute h-40" src="dist/img/m502t0008_06jun22_trophy_02.png" alt="" />
+              <div class="text-center ">
+                <h1>AWARDING</h1> 
+                <h2>olimpiade Siswa Cerdas</h2>
+                <h2>Pijar Sekolah</h2>
+              </div>
+              <div class="">
+                <h1 class="text-center  text-4xl font-bold text-white lg:text-7xl">5</h1>
+                <h2 class="text-center  text-xl font-bold text-white lg:text-3xl">Okt '22</h2>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- TIMELINE END -->
+    <!-- KEGIATAN -->
+    <div id="kegiatan" class="container px-5 pt-32">
+      <h1 class="text-center  text-5xl font-bold text-black">Kegiatan</h1>
+      <div class="mt-10 lg:flex-col">
+        <div class="mt-10 gap-12 lg:mt-16 lg:flex">
+          <div>
+            <div class="h-20 w-20 bg-cover bg-no-repeat" style="background-image: url(dist/img/logo.png)"></div>
+          </div>
+          <div class="lg:px-5">
+            <h2 class=" text-base font-bold text-orangeMuda lg:text-xl">Olimpiade Siswa Cerdas</h2>
+            <h1 class="text-3xl font-bold text-biruTua lg:text-5xl">Tahap Penyisihan</h1>
+            <p class="mt-5 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non debitis vitae expedita quae ut est obcaecati sit labore commodi. Atque corrupti suscipit optio, hic quisquam assumenda. Porro, hic debitis?</p>
+          </div>
+          <img class="mt-5 h-auto" src="dist/img/image 5.png" alt="" />
+        </div>
+        <div class="mt-10 gap-12 lg:mt-16 lg:flex">
+          <div>
+            <div class="h-20 w-20 bg-cover bg-no-repeat" style="background-image: url(dist/img/logo.png)"></div>
+          </div>
+          <div class="lg:px-5">
+            <h2 class="text-base font-bold text-orangeMuda lg:text-xl">Olimpeiade Siswa Cerdas</h2>
+            <h1 class="text-3xl font-bold text-biruTua lg:text-5xl">Tahap Nasional</h1>
+            <p class="mt-5 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non debitis vitae expedita quae ut est obcaecati sit labore commodi. Atque corrupti suscipit optio, hic quisquam assumenda. Porro, hic debitis?</p>
+          </div>
+          <img class="mt-5 h-auto lg:-order-1" src="https://source.unsplash.com/420x363?nature" alt="" />
+        </div>
+        <div class="mt-10 gap-12 lg:mt-16 lg:flex">
+          <div>
+            <div class="h-20 w-20 bg-cover bg-no-repeat" style="background-image: url(dist/img/logo.png)"></div>
+          </div>
+          <div class="lg:px-5">
+            <h1 class="text-3xl font-bold text-biruTua lg:text-5xl">Awarding</h1>
+            <h2 class="mt-2 text-base font-bold text-orangeMuda lg:text-xl">Olimpiade Siswa Cerdas</h2>
+            <p class="mt-5 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non debitis vitae expedita quae ut est obcaecati sit labore commodi. Atque corrupti suscipit optio, hic quisquam assumenda. Porro, hic debitis?</p>
+          </div>
+          <img class="mt-5 h-auto" src="dist/img/3 poster awarding 1.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- KEGIATAN END -->
+    <!-- YUTUB -->
+    <!-- <div class="container mt-10 px-5 lg:mt-16">
+      <div class="aspect-video overflow-hidden rounded-lg bg-gray-200 p-3">
+        <iframe class="h-full w-full" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe> -->
+        <!-- <img class="h-full bg-cover" style="background-image: url(https://source.unsplash.com/100x100?nature)" src="" alt="" /> -->
+      <!-- </div> -->
+    </div>
+    <!-- YUTUB END -->
+
+    <!-- PEMENANG  -->
+    <div id="pemenang" class="px-5 pt-32">
+      <h1 class="text-center text-5xl font-bold text-biruTua">Pemenang Regional</h1>
+      <div class="swiper mySwiper1 mt-20 block">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="dist/img/jabar.jpeg" />
+            <div class="flex justify-center">
+              <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1">
+                <a target="_blank" href="https://www.youtube.com/watch?v=i80BIcOFtrA&t=4115s">
+                  <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="dist/img/jateng&diy.jpeg" />
+            <div class="flex justify-center">
+              <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1"">
+                <a target="_blank" href="https://www.youtube.com/watch?v=1N4dLytr2bc">
+                  <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="dist/img/sumatera.jpeg" />
+            <div class="flex justify-center">
+              <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1"">
+                <a target="_blank" href="https://www.youtube.com/watch?v=WoDaqdOmdBY&t=4396s">
+                  <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="dist/img/jabodetabek.jpeg" />
+            <div class="flex justify-center">
+              <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1"">
+                <a target="_blank" href="https://www.youtube.com/watch?v=zE4C-6JAb_s">
+                  <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="dist/img/jatimBaliNusra.jpeg" />
+            <div class="flex justify-center">
+              <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1"">
+                <a target="_blank" href="https://www.youtube.com/watch?v=wZFv8w6PJEs">
+                  <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="dist/img/kalimantan.jpeg" />
+            <div class="flex justify-center">
+              <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1"">
+                <a target="_blank" href="https://www.youtube.com/watch?v=wZFv8w6PJEs">
+                  <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="dist/img/kti.jpeg" />
+            <div class="flex justify-center">
+              <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1"">
+                <a target="_blank" href="https://www.youtube.com/watch?v=wZFv8w6PJEs">
+                  <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </div>
+    <!-- PEMENANG END -->
+    <!-- PEMENANG NASIONAL -->
+    <div id="pemenang" class="container px-5 pt-32">
+      <h1 class="text-center text-5xl font-bold text-biruTua">Pemenang Nasional</h1>
+      <div class="flex mt-20 justify-center">
+        <div class="mt-10 h-80 w-80 flex flex-col justify-center">
+          <img class=" object-cover " src="dist/img/kti.jpeg" />
+          <div class="flex justify-center">
+            <button class="mt-3 rounded-md lg:w-2/3 lg:rounded-full bg-orangeMuda p-1"">
+              <a target="_blank" href="https://www.youtube.com/watch?v=wZFv8w6PJEs">
+                <h1 class="text-center text-xs lg:text-lg text-white">Tonton cuplikan</h1>
+              </a>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- PEMENANG NASIONAL END -->
+    
+    <!-- SEBELUM FOOTER -->
+    <!-- <div class="relative h-[550px] bg-[#D9D9D9] shadow-xl">
+      <img class="absolute left-20 top-28" src="dist/img/download (3) 2.png" alt="" />
+      <div>
+        <h1>Ayo Bergabung!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis beatae, a at labore ipsum repellat quos impedit culpa atque exercitationem?</p>
+      </div>
+    </div> -->
+    <!-- SEBELUM FOOTER END -->
+
+    <!-- NEW FOOTER -->
+    <section class="bg-gradient-to-tr from-[#1A4B6D] to-[#2D7FBA] text-white mt-32 pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap lg:justify-between">
+          <div class="mb-12 w-full font-medium text-slate-300 lg:w-2/4 ">
+            <img class="mb-5" alt="" src="dist/img/download (3) 3.png" />
+            <p class="mb-2 text-justify lg:pr-40">Pijar Sekolah adalah sebuah platform pembelajaran digital terpadu yang mendukung pihak sekolah dalam menciptakan pembelajaran digital yang seru dan menyenangkan. Pijar Sekolah memiliki ribuan konten digital yang menarik, mulai dari Buku Digital Interaktif, Buku Digital, Video Pembelajaran, hingga Laboratorium Maya yang bisa dimanfaatkan oleh semua siswa untuk mendukung mereka dalam belajar di sekolah.</p>
+          </div>
+          <div class="mb-12  w-full lg:w-1/5">
+            <ul>
+              <li>
+                <a href="#tentangOSC" class="mb-3 inline-block text-xl font-normal hover:text-orangeMuda">Tentang OSC</a>
+              </li>
+              <li>
+                <a href="#timeline" class="mb-3 inline-block text-xl font-normal hover:text-orangeMuda">Timeline</a>
+              </li>
+              <li>
+                <a href="#kegiatan" class="mb-3 inline-block text-xl font-normal hover:text-orangeMuda">Kegiatan</a>
+              </li>
+              <li>
+                <a href="#pemenang" class="mb-3 inline-block text-xl font-normal hover:text-orangeMuda">Pemenang</a>
+              </li>
+              <li>
+                <a href="https://pijarsekolah.id/" target="_blank" class="mb-3 inline-block text-xl font-normal hover:text-orangeMuda">pijarsekolah.id</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mb-12 w-full lg:w-1/5">
+            <h3 class="mb-5 text-xl font-semibold text-white">Tentang Kami</h3>  
+            <ul class="">
+              <li class="flex">
+                <div>
+                  <h1 class="mb-1">Alamat</h1>
+                  <h1>Gedung Transvision,</h1>
+                  <h1>Jl, Prof, Dr. Soepomo No 139,</h1>
+                  <h1>Tebet Barat, Jakarta Selatan</h1>
+                  <h1>12810</h1>
+                </div>
+                <div></div>
+              </li>
+              <li class="mt-5 flex">
+                <div>
+                  <h1 class="mb-1">Whatsapp (Chat Only)</h1>
+                  <h1>+62 851-5663-5817</h1>
+                </div>
+                <div></div>
+              </li>
+              <li class="mt-5 flex">
+                <div>
+                  <h1 class="mb-1">Email</h1>
+                  <h1>support@pijarsekolah.id</h1>
+                </div>
+                <div></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full  pt-10">
+          <div class="mb-5 flex items-center justify-center lg:justify-start">
+            <a href="#" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full hover:text-orangeMuda ">
+              <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 21.834C0 32.2745 7.58275 40.9563 17.5 42.7168V27.5495H12.25V21.7168H17.5V17.0495C17.5 11.7995 20.8827 8.88405 25.6672 8.88405C27.1827 8.88405 28.8173 9.1168 30.3328 9.34955V14.7168H27.65C25.0828 14.7168 24.5 15.9995 24.5 17.634V21.7168H30.1L29.1672 27.5495H24.5V42.7168C34.4173 40.9563 42 32.2763 42 21.834C42 10.2193 32.55 0.716797 21 0.716797C9.45 0.716797 0 10.2193 0 21.834Z" fill="white"/>
+              </svg>
+              
+            </a>
+            <a href="https://www.instagram.com/pijarsekolah/?hl=en" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full">
+              <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5967 42.5641C33.3505 42.5641 42.8788 33.0358 42.8788 21.282C42.8788 9.5283 33.3505 0 21.5967 0C9.84299 0 0.314697 9.5283 0.314697 21.282C0.314697 33.0358 9.84299 42.5641 21.5967 42.5641ZM18.1708 21.2821C18.1708 19.3971 19.709 17.8588 21.594 17.8588C23.4789 17.8588 25.0172 19.3971 25.0172 21.2821C25.0172 23.1671 23.4789 24.7054 21.594 24.7054C19.709 24.7054 18.1708 23.1671 18.1708 21.2821ZM31.8614 20.7635C31.8612 20.9362 31.8611 21.1091 31.8611 21.2821C31.8611 21.4756 31.8613 21.6689 31.8616 21.8619C31.8634 23.0834 31.8652 24.2976 31.7943 25.5195C31.7147 27.163 31.3423 28.6192 30.1379 29.8236C28.936 31.0255 27.4774 31.4004 25.8338 31.48C24.5915 31.5499 23.3571 31.5485 22.115 31.5472C21.9424 31.547 21.7696 31.5468 21.5965 31.5468C21.4239 31.5468 21.2514 31.547 21.079 31.5472C19.8386 31.5485 18.6039 31.5499 17.3593 31.48C15.7157 31.4004 14.2596 31.028 13.0552 29.8236C11.8534 28.6217 11.4784 27.163 11.3988 25.5195C11.3289 24.2771 11.3303 23.0407 11.3317 21.7997C11.3319 21.6273 11.332 21.4547 11.332 21.2821C11.332 21.1094 11.3319 20.9369 11.3317 20.7645C11.3303 19.524 11.3289 18.2893 11.3988 17.0447C11.4784 15.4011 11.8508 13.945 13.0552 12.7406C14.2571 11.5387 15.7157 11.1638 17.3593 11.0842C18.6016 11.0143 19.8359 11.0156 21.078 11.017C21.2507 11.0172 21.4235 11.0174 21.5965 11.0174C21.7692 11.0174 21.9417 11.0172 22.1141 11.017C23.3546 11.0156 24.5893 11.0143 25.8338 11.0842C27.4774 11.1638 28.9335 11.5362 30.1379 12.7406C31.3397 13.9425 31.7147 15.4011 31.7943 17.0447C31.8642 18.287 31.8628 19.5214 31.8614 20.7635ZM16.3269 21.2821C16.3269 24.1969 18.6792 26.5493 21.594 26.5493C24.5087 26.5493 26.8611 24.1969 26.8611 21.2821C26.8611 18.3673 24.5087 16.0149 21.594 16.0149C18.6792 16.0149 16.3269 18.3673 16.3269 21.2821ZM25.8467 15.7992C25.8467 16.4798 26.3962 17.0293 27.0768 17.0293C27.2384 17.0295 27.3984 16.9978 27.5478 16.9361C27.6971 16.8744 27.8328 16.7838 27.947 16.6695C28.0613 16.5552 28.1519 16.4195 28.2136 16.2702C28.2754 16.1209 28.3071 15.9608 28.3069 15.7992C28.3069 15.1187 27.7573 14.5691 27.0768 14.5691C26.3962 14.5691 25.8467 15.1187 25.8467 15.7992Z" fill="white"/>
+                </svg>
+            </a>
+            <a href="#" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full">
+              <svg class="fill-current" width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9116 42.5641C33.6653 42.5641 43.1936 33.0358 43.1936 21.282C43.1936 9.5283 33.6653 0 21.9116 0C10.1578 0 0.629517 9.5283 0.629517 21.282C0.629517 33.0358 10.1578 42.5641 21.9116 42.5641ZM31.1127 14.6094C32.1057 14.4899 33.0503 14.2254 33.9297 13.8339L33.9276 13.8371C33.2693 14.8262 32.4409 15.6896 31.4813 16.3869C31.4907 16.5985 31.496 16.8122 31.496 17.0238C31.496 23.537 26.5624 31.0468 17.5376 31.0468C14.8716 31.0498 12.2611 30.2809 10.0187 28.8323C10.4073 28.8783 10.7983 28.9012 11.1897 28.9011C13.3989 28.9044 15.545 28.1609 17.2827 26.7904C16.2591 26.7715 15.2669 26.4315 14.4451 25.818C13.6233 25.2044 13.0131 24.3481 12.6998 23.3687C13.4352 23.5095 14.1928 23.4806 14.9154 23.2841C13.805 23.0587 12.8065 22.4542 12.0892 21.5733C11.3719 20.6924 10.98 19.5892 10.9801 18.4511V18.3876C11.6613 18.7681 12.4231 18.9795 13.2021 19.0044C12.5304 18.5538 11.9798 17.9435 11.5992 17.2277C11.2186 16.512 11.0197 15.7129 11.0201 14.9015C11.0201 14 11.2623 13.1536 11.6836 12.4236C12.9155 13.9462 14.4523 15.1916 16.1943 16.0789C17.9363 16.9662 19.8445 17.4756 21.7951 17.574C21.5482 16.5168 21.6556 15.4072 22.1007 14.4176C22.5457 13.428 23.3035 12.6137 24.2564 12.1012C25.2093 11.5886 26.3039 11.4064 27.3704 11.583C28.4369 11.7595 29.4155 12.2848 30.1544 13.0774C31.2531 12.8607 32.3067 12.4564 33.2694 11.8819C32.9039 13.024 32.1373 13.9935 31.1127 14.6094Z" fill="white"/>
+                </svg>
+              
+            </a>
+            <a href="https://www.t.me/joinchat/MNYN1VVGwqZswqaClOWh7A" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full">
+              <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M42 21.7168C42 33.314 32.5972 42.7168 21 42.7168C9.40275 42.7168 0 33.314 0 21.7168C0 10.1195 9.40275 0.716797 21 0.716797C32.5972 0.716797 42 10.1195 42 21.7168ZM21.7525 16.22C19.7103 17.0688 15.6275 18.8275 9.506 21.4945C8.512 21.89 7.9905 22.2768 7.94325 22.6548C7.86275 23.2953 8.66425 23.5473 9.75275 23.8885C9.9015 23.9358 10.0555 23.983 10.213 24.0355C11.2857 24.3838 12.7278 24.7915 13.4768 24.8073C14.1575 24.8213 14.917 24.5413 15.7553 23.9673C21.4743 20.105 24.4265 18.1538 24.612 18.1118C24.7432 18.082 24.9252 18.0435 25.0477 18.1538C25.1702 18.2623 25.158 18.4688 25.1458 18.5248C25.0653 18.8625 21.9258 21.7833 20.2983 23.2953C19.7908 23.766 19.432 24.1003 19.3585 24.1773C19.194 24.347 19.026 24.5098 18.865 24.6655C17.8675 25.6245 17.122 26.3455 18.907 27.5215C19.7645 28.0868 20.4505 28.554 21.1348 29.0195C21.882 29.5288 22.6275 30.0363 23.5935 30.6698C23.8385 30.8308 24.073 30.997 24.3022 31.1598C25.172 31.781 25.9543 32.3375 26.9202 32.25C27.4803 32.1975 28.0612 31.6708 28.3552 30.0975C29.05 26.377 30.4185 18.32 30.7352 14.9985C30.7545 14.7228 30.7428 14.4457 30.7002 14.1725C30.6748 13.9519 30.5674 13.7489 30.3993 13.6038C30.149 13.399 29.7605 13.3553 29.5855 13.3588C28.7962 13.3728 27.5853 13.7945 21.7525 16.22Z" fill="white"/>
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UCD90Z-vRm31jHH3W_qhFQTg" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full">
+              <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.0901 21.3515L20.0599 19.059C19.621 18.8599 19.2604 19.083 19.2604 19.5577V23.8759C19.2604 24.3505 19.621 24.5737 20.0599 24.3746L25.0878 22.0821C25.529 21.8809 25.529 21.5527 25.0901 21.3515ZM21.5 0.716797C9.62573 0.716797 0 10.1187 0 21.7168C0 33.3149 9.62573 42.7168 21.5 42.7168C33.3743 42.7168 43 33.3149 43 21.7168C43 10.1187 33.3743 0.716797 21.5 0.716797ZM21.5 30.248C10.4947 30.248 10.3021 29.279 10.3021 21.7168C10.3021 14.1546 10.4947 13.1855 21.5 13.1855C32.5053 13.1855 32.6979 14.1546 32.6979 21.7168C32.6979 29.279 32.5053 30.248 21.5 30.248Z" fill="white"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/pijarsekolah/" target="_blank" class="mr-3 flex h-9 w-9 items-center justify-center rounded-full">
+              <svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 0.716797C9.40188 0.716797 0 10.1187 0 21.7168C0 33.3149 9.40188 42.7168 21 42.7168C32.5981 42.7168 42 33.3149 42 21.7168C42 10.1187 32.5981 0.716797 21 0.716797ZM15.8594 30.4209H11.6069V16.7359H15.8594V30.4209ZM13.7069 15.0559C12.3637 15.0559 11.4953 14.1043 11.4953 12.9274C11.4953 11.7265 12.39 10.8034 13.7616 10.8034C15.1331 10.8034 15.9731 11.7265 15.9994 12.9274C15.9994 14.1043 15.1331 15.0559 13.7069 15.0559ZM31.3906 30.4209H27.1381V22.8368C27.1381 21.0715 26.5213 19.8727 24.9834 19.8727C23.8088 19.8727 23.1109 20.6843 22.8025 21.4652C22.6888 21.743 22.6603 22.1368 22.6603 22.5284V30.4187H18.4056V21.0999C18.4056 19.3915 18.3509 17.963 18.2941 16.7337H21.9888L22.1834 18.6346H22.2688C22.8288 17.7421 24.2003 16.4252 26.495 16.4252C29.2928 16.4252 31.3906 18.2999 31.3906 22.3293V30.4209Z" fill="white"/>
+                </svg>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    
+      
+    <!-- NEW FOOTER END -->
+
+    <!-- FOOTER -->
+    <!-- <div class="mt-32 h-[550px] bg-gradient-to-tr from-[#1A4B6D] to-[#2D7FBA] text-white">
+      <div class="flex flex-wrap py-9 px-16">
+        <div class="mr-72 w-1/3">
+          <img class="left-20 top-28" alt="" src="dist/img/download (3) 3.png" />
+          <p class="mt-9 text-justify">Pijar Sekolah adalah sebuah platform pembelajaran digital terpadu yang mendukung pihak sekolah dalam menciptakan pembelajaran digital yang seru dan menyenangkan. Pijar Sekolah memiliki ribuan konten digital yang menarik, mulai dari Buku Digital Interaktif, Buku Digital, Video Pembelajaran, hingga Laboratorium Maya yang bisa dimanfaatkan oleh semua siswa untuk mendukung mereka dalam belajar di sekolah.</p>
+        </div>
+        <div class="flex w-1/3">
+          <div class="pr-36">
+            <ul class="flex flex-col gap-4">
+              <li>Tentang OSC</li>
+              <li>Timeline</li>
+              <li>Kegiatan</li>
+              <li>Pemenang</li>
+              <li>pijarsekolah.id</li>
+            </ul>
+          </div>
+          <div class="">
+            <h1>Kontak Kami</h1>
+            <ul class="">
+              <li class="flex">
+                <div>
+                  <h1>alamat</h1>
+                  <h1>Gedung Transvision,</h1>
+                  <h1>Jl, Prof, Dr. Soepomo No 139,</h1>
+                  <h1>Tebet Barat, Jakarta Selatan</h1>
+                  <h1>12810</h1>
+                </div>
+                <div></div>
+              </li>
+              <li class="mt-5 flex">
+                <div>
+                  <h1>Whatsapp (Chat Only)</h1>
+                  <h1>+62 851-5663-5817</h1>
+                </div>
+                <div></div>
+              </li>
+              <li class="mt-5 flex">
+                <div>
+                  <h1>Email</h1>
+                  <h1>support@pijarsekolah.id</h1>
+                </div>
+                <div></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- FOOTER END -->
+
+    <!-- <!-- CARD 
+    <div class="mt-10 py-10 px-5">
+      <div class="relative rounded-lg bg-gray-300 px-5 py-5">
+        <div class="flex justify-center">
+          <div class="absolute -top-16 h-32 w-32 rounded-full border-8 border-white bg-biruMuda"></div>
+        </div>
+        <h1 class="pt-20 text-2xl font-bold text-black">Bisa digunakan siapa saja</h1>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates iure deserunt iusto animi repudiandae quo earum. Fugit, sed dolor.</p>
+      </div>
+    </div>
+    <!-- CARD END  -->
+    <!-- KENAPA 
+    <div class="mt-10 px-5">
+      <h1 class="text-4xl font-bold text-biruTua">Kenapa Harus pijar sekolah</h1>
+      <h2 class="text-2xl font-bold text-black">Lengkap dan mudah digunakan!</h2>
+    </div>
+    <!-- KENAPA END -->
+    <!-- BERAGAM MODUL MENARIK 
+    <div class="px-5">
+      <h1 class="text-4xl font-bold text-slate-800">Beragam Modul Menarik</h1>
+      <img src="https://source.unsplash.com/100x100?nature" alt="" />
+      <h1 class="text-4xl font-bold text-black">Manajemen Sekolah</h1>
+      <p class="mt-5 text-xl font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequatur, laborum, quaerat asperiores porro at eligendi qui mollitia corrupti non nulla magni quae sint, nemo explicabo iusto. Culpa, ad repellat!</p>
+      
+    </div>
+    <!-- BERAGAM MODUL MENARIK END -->
+
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>

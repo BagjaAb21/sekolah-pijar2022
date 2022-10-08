@@ -54,8 +54,11 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper = new Swiper(".mySwiper1", {
-  slidesPerView: "4",
-
+  slidesPerView: "3",
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: false,
+  },
   centeredSlides: true,
   spaceBetween: 20,
   pagination: {
