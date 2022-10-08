@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>Homepage - Pijar Sekolah</title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="absolute top-0 left-0 z-30 flex w-full items-center bg-white shadow-md">
+      <div class="relative flex w-full items-center justify-between">
+        <div class="p-4">
+          <a href="#gambar" class="flex gap-x-2">
+            <img src="../dist/img/navLogo.png" alt="" />
+            <img src="../dist/img/navLogoPOSI.png" alt="" />
+          </a>
+          <button id="hamburger" type="button" name="button" class="absolute right-4 top-6 lg:hidden">
+            <svg id="kotak" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+              <path id="kotak2" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+            </svg>
+            <svg id="x" xmlns="http://www.w3.org/2000/svg" class="hidden h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <header id="nav-menu" class="absolute right-0 top-[70px] hidden w-full max-w-full rounded-b-xl bg-white py-5 shadow-md lg:static lg:block lg:rounded-none lg:bg-transparent lg:py-0 lg:shadow-none">
+          <div class="py-4 px-11 lg:flex lg:items-center lg:justify-end lg:py-0 lg:pr-10">
+            <ul class="block lg:mt-0 lg:flex lg:items-center">
+              <li>
+                <a href="#tentangOSC" class="mt-6 mb-6 flex font-poppins text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Tentang OSC</a>
+              </li>
+              <li>
+                <a href="#timeline" class="mt-6 mb-6 flex font-poppins text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Timeline</a>
+              </li>
+              <li>
+                <a href="#kegiatan" class="mt-6 mb-6 flex font-poppins text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Kegiatan</a>
+              </li>
+              <li>
+                <a href="#pemenang" class="mt-6 mb-6 flex font-poppins text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">Pemenang</a>
+              </li>
+              <li>
+                <a href="#" class="mt-6 mb-6 flex font-poppins text-base font-normal lg:mx-8 lg:mb-0 lg:mt-0 lg:font-medium lg:hover:text-blue-400">pijarsekolah.id</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+    </nav>
+    <!-- NAV END -->
+
+    <!-- GAMBAR -->
+    <div id="gambar" class="pt-24">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="https://source.unsplash.com/360x360?indonesia" />
+          </div>
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="https://source.unsplash.com/370x370?indonesia" />
+          </div>
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="https://source.unsplash.com/380x380?indonesia" />
+          </div>
+          <div class="swiper-slide bg-cover bg-center">
+            <img class="h-[620px] w-full object-cover lg:h-[650px]" src="https://source.unsplash.com/390x390?indonesia" />
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- <h1 class="absolute bottom-10 left-5 z-10 text-4xl font-bold text-slate-100 md:text-5xl lg:text-6xl">
+        Lorem Ipsum
+        <div>Lorem, ipsum dolor.</div>
+      </h1> -->
+    </div>
+    <!-- GAMBAR END -->
+    <!-- TENTANG OSC -->
+    <div id="tentangOSC" class="container pt-32 font-poppins lg:flex">
+      <h1 class="font-poppins text-4xl font-bold text-black lg:hidden">Tentang OSC</h1>
+      <img class="mt-5 lg:-order-1" src="https://source.unsplash.com/420x363?nature" alt="" />
+      <div class="lg:ml-10">
+        <h1 class="hidden font-poppins text-5xl font-bold text-black lg:block">Tentang OSC</h1>
+        <p class="mt-5">Pijar Sekolah terus berkomitmen untuk mewujudkan #SekolahUnggul bahkan di tengah pandemi COVID-19. Salah satunya dengan menyelenggarakan olimpiade untuk para siswa berprestasi. Kali ini Pijar Sekolah bersama SMK Telkom Lampung mengadakan kegiatan “Olimpiade Siswa Cerdas” untuk tingkat SMP/MTs sederajat se-provinsi Lampung.</p>
+        <p class="mt-5">Lomba akan diadakan secara online melalui platform PijarSekolah dan bersifat individu. Cabang perlombaan meliputi pengetahuan umum, wawasan kebangsaan, dan wawasan seputar teknologi informasi (IT).</p>
+        <button class="mt-5 rounded-full bg-orange-400 py-2 px-6 text-white">Tentang pijarsekolah.id</button>
+      </div>
+    </div>
+    <!-- TENTANG OSC END -->
+    <!-- TIMELINE -->
+    <div>
+      <h1 id="timeline" class="pt-32 text-center font-poppins text-5xl font-bold text-black">Timeline</h1>
+      <div class="mt-5 flex justify-center">
+        <div class="grid grid-cols-2 gap-2 lg:grid-cols-3 lg:gap-5">
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center font-poppins text-4xl font-bold text-white lg:text-7xl">10</h1>
+                <h2 class="text-center font-poppins text-xl font-bold text-white lg:text-3xl">Nov '21</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center font-poppins text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Jawa Barat</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center font-poppins text-4xl font-bold text-white lg:text-7xl">04</h1>
+                <h2 class="text-center font-poppins text-xl font-bold text-white lg:text-3xl">Mar '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center font-poppins text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Jateng & DIY</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center font-poppins text-4xl font-bold text-white lg:text-7xl">21</h1>
+                <h2 class="text-center font-poppins text-xl font-bold text-white lg:text-3xl">Apr '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center font-poppins text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Sumatra</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center font-poppins text-4xl font-bold text-white lg:text-7xl">19</h1>
+                <h2 class="text-center font-poppins text-xl font-bold text-white lg:text-3xl">Mei '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center font-poppins text-[10px] font-medium lg:mt-6 lg:py-2 lg:text-sm lg:font-semibold">OSC Jabodetabek & Serang</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center font-poppins text-4xl font-bold text-white lg:text-7xl">24</h1>
+                <h2 class="text-center font-poppins text-xl font-bold text-white lg:text-3xl">Agu '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center font-poppins text-[6px] font-medium lg:mt-6 lg:text-[10px] lg:font-semibold">OSC Jatim, Bali, NTT, Kalimantan, Sulawesi, Maluku, Papua & Papua Barat</div>
+            </div>
+          </div>
+          <div class="h-28 w-40 rounded-lg bg-biruTua lg:h-48 lg:w-56">
+            <div class="flex h-full flex-col items-center justify-end px-1">
+              <div class="">
+                <h1 class="text-center font-poppins text-4xl font-bold text-white lg:text-7xl">5</h1>
+                <h2 class="text-center font-poppins text-xl font-bold text-white lg:text-3xl">Okt '22</h2>
+              </div>
+              <div class="mb-1 mt-2 w-full self-end rounded-md bg-white p-1 text-center font-poppins text-xs font-medium lg:mt-6 lg:text-lg lg:font-semibold">OSC Nasional</div>
+            </div>
+          </div>
+          <img class="col-span-2 w-72 lg:col-span-3 lg:w-[700px]" src="../dist/img/Group 5.png" alt="" />
+          <!-- <div class="relative col-span-2 rounded-lg bg-biruTua lg:col-span-3">
+            <div class="flex justify-between p-3">
+              <img class="absolute h-40" src="../dist/img/m502t0008_06jun22_trophy_02.png" alt="" />
+              <div class="text-center font-poppins">
+                <h1>AWARDING</h1> 
+                <h2>olimpiade Siswa Cerdas</h2>
+                <h2>Pijar Sekolah</h2>
+              </div>
+              <div class="">
+                <h1 class="text-center font-poppins text-4xl font-bold text-white lg:text-7xl">5</h1>
+                <h2 class="text-center font-poppins text-xl font-bold text-white lg:text-3xl">Okt '22</h2>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- TIMELINE END -->
+    <!-- KEGIATAN -->
+    <div id="kegiatan" class="container px-5 pt-32">
+      <h1 class="text-center text-5xl font-bold text-black">KEGIATAN</h1>
+      <div class="mt-10 lg:flex-col">
+        <div class="mt-10 gap-12 lg:mt-16 lg:flex">
+          <div>
+            <div class="h-20 w-20 bg-cover bg-no-repeat" style="background-image: url(../dist/img/logo.png)"></div>
+          </div>
+          <div class="lg:px-5">
+            <h2 class="text-base font-bold text-orangeMuda lg:text-xl">Olimpeiade Siswa Cerdas</h2>
+            <h1 class="text-3xl font-bold text-biruTua lg:text-5xl">Tahap Penyisihan</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non debitis vitae expedita quae ut est obcaecati sit labore commodi. Atque corrupti suscipit optio, hic quisquam assumenda. Porro, hic debitis?</p>
+          </div>
+          <img class="mt-5 h-auto" src="https://source.unsplash.com/420x363?nature" alt="" />
+        </div>
+        <div class="mt-10 gap-12 lg:mt-16 lg:flex">
+          <div>
+            <div class="h-20 w-20 bg-cover bg-no-repeat" style="background-image: url(../dist/img/logo.png)"></div>
+          </div>
+          <div class="lg:px-5">
+            <h2 class="text-base font-bold text-orangeMuda lg:text-xl">Olimpeiade Siswa Cerdas</h2>
+            <h1 class="text-3xl font-bold text-biruTua lg:text-5xl">Tahap Nasional</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non debitis vitae expedita quae ut est obcaecati sit labore commodi. Atque corrupti suscipit optio, hic quisquam assumenda. Porro, hic debitis?</p>
+          </div>
+          <img class="mt-5 h-auto lg:-order-1" src="https://source.unsplash.com/420x363?nature" alt="" />
+        </div>
+        <div class="mt-10 gap-12 lg:mt-16 lg:flex">
+          <div>
+            <div class="h-20 w-20 bg-cover bg-no-repeat" style="background-image: url(../dist/img/logo.png)"></div>
+          </div>
+          S
+          <div class="lg:px-5">
+            <h1 class="text-3xl font-bold text-biruTua lg:text-5xl">Awarding</h1>
+            <h2 class="mt-2 text-base font-bold text-orangeMuda lg:text-xl">Olimpeiade Siswa Cerdas</h2>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non debitis vitae expedita quae ut est obcaecati sit labore commodi. Atque corrupti suscipit optio, hic quisquam assumenda. Porro, hic debitis?</p>
+          </div>
+          <img class="mt-5 h-auto" src="https://source.unsplash.com/420x363?nature" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- KEGIATAN END -->
+    <!-- YUTUB -->
+    <div class="container mt-10 px-5 lg:mt-16">
+      <div class="aspect-video overflow-hidden rounded-lg bg-gray-200 p-3">
+        <iframe class="h-full w-full" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+        <!-- <img class="h-full bg-cover" style="background-image: url(https://source.unsplash.com/100x100?nature)" src="" alt="" /> -->
+      </div>
+    </div>
+    <!-- YUTUB END -->
+
+    <!-- PEMENANG  -->
+    <div id="pemenang" class="container px-5 pt-32">
+      <h1 class="text-center text-4xl font-bold text-biruTua">Pemenang Regional</h1>
+      <div class="swiper mySwiper1 mt-20 block">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="../dist/img/final.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="../dist/img/jabar.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="../dist/img/jabodetabek.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-full object-cover lg:w-full" src="../dist/img/kalimantan.jpeg" />
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- PEMENANG END -->
+
+    <!-- <!-- CARD 
+    <div class="mt-10 py-10 px-5">
+      <div class="relative rounded-lg bg-gray-300 px-5 py-5">
+        <div class="flex justify-center">
+          <div class="absolute -top-16 h-32 w-32 rounded-full border-8 border-white bg-biruMuda"></div>
+        </div>
+        <h1 class="pt-20 text-2xl font-bold text-black">Bisa digunakan siapa saja</h1>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptates iure deserunt iusto animi repudiandae quo earum. Fugit, sed dolor.</p>
+      </div>
+    </div>
+    <!-- CARD END  -->
+    <!-- KENAPA 
+    <div class="mt-10 px-5">
+      <h1 class="text-4xl font-bold text-biruTua">Kenapa Harus pijar sekolah</h1>
+      <h2 class="text-2xl font-bold text-black">Lengkap dan mudah digunakan!</h2>
+    </div>
+    <!-- KENAPA END -->
+    <!-- BERAGAM MODUL MENARIK 
+    <div class="px-5">
+      <h1 class="text-4xl font-bold text-slate-800">Beragam Modul Menarik</h1>
+      <img src="https://source.unsplash.com/100x100?nature" alt="" />
+      <h1 class="text-4xl font-bold text-black">Manajemen Sekolah</h1>
+      <p class="mt-5 text-xl font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequatur, laborum, quaerat asperiores porro at eligendi qui mollitia corrupti non nulla magni quae sint, nemo explicabo iusto. Culpa, ad repellat!</p>
+      
+    </div>
+    <!-- BERAGAM MODUL MENARIK END -->
+
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../dist/js/script.js"></script>
+  </body>
+</html>
